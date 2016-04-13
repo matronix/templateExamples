@@ -62,7 +62,7 @@ class MainPage(Handler):
         if n:
             n=int(n)
 
-        self.render("shopping_list.html", n=n)
+        self.render("fizzbuzz.html", n=n)
         
 
 ##        output = form_html
